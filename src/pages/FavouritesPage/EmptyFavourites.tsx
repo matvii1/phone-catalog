@@ -1,4 +1,4 @@
-import { GoBack } from 'src/components/GoBack';
+import { GoBack } from 'components/GoBack';
 
 export const EmptyFavourites = () => {
   return (

@@ -1,9 +1,9 @@
 import { useCallback, useContext, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
-import { hasMatches } from 'src/utils/helpers/hasMatches';
-import { getSearchWith } from 'src/utils/helpers/searchHelper';
+import { ProductContext } from 'contexts/ProductContext';
+import { useLocalStorage } from 'hooks/useLocalStorage';
+import { hasMatches } from 'utils/helpers/hasMatches';
+import { getSearchWith } from 'utils/helpers/searchHelper';
 import { debounce } from 'ts-debounce';
 import { ClearIcon } from './Icons/ClearIcon';
 import { SearchIcon } from './Icons/SearchIcon';

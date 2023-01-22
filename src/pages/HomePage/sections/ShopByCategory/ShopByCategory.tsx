@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { CategoryCard } from 'src/components/CategoryCard';
-import { Category } from 'src/types/Category';
-import { Product } from 'src/types/Product';
+import { CategoryCard } from 'components/CategoryCard';
+import { Category } from 'types/Category';
+import { Product } from 'types/Product';
 import './ShopByCategory.scss';
 
 type Props = {

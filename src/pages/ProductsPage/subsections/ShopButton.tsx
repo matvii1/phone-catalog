@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { AddButton } from 'src/components/AddButtons';
-import { Product } from 'src/types/Product';
+import { AddButton } from 'components/AddButtons';
+import { Product } from 'types/Product';
 
 type Props = {
   selectedProductGeneralInfo: Product,

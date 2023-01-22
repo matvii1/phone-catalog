@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ProductsPage } from 'src/pages/ProductsPage/ProductsPage';
+import { ProductsPage } from 'pages/ProductsPage/ProductsPage';
 
 type Props = {
   pageType: string,

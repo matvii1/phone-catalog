@@ -2,8 +2,8 @@ import {
   useContext, useEffect, useState,
 } from 'react';
 import { useLocation } from 'react-router-dom';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
+import { ProductContext } from 'contexts/ProductContext';
+import { useLocalStorage } from 'hooks/useLocalStorage';
 import { DetailsContent } from './sections/DetailsContent/DetailsContent';
 
 export const ProductsDetails = () => {

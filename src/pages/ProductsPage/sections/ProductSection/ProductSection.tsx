@@ -1,9 +1,9 @@
 import { FC, useContext } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { NoMatches } from 'src/features/NoMatches/NoMatches';
-import { Filters } from 'src/pages/ProductsPage/subsections/Filters/Filters';
-import { Product } from 'src/types/Product';
+import { ProductContext } from 'contexts/ProductContext';
+import { NoMatches } from 'features/NoMatches/NoMatches';
+import { Filters } from 'pages/ProductsPage/subsections/Filters/Filters';
+import { Product } from 'types/Product';
 import { PaginatedProducts } from '../PaginatedProducts/PaginatedProducts';
 import './ProductSection.scss';
 

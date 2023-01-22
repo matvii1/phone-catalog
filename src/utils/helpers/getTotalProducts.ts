@@ -1,4 +1,4 @@
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 
 export function getTotalProducts(products: Product[]) {
   let count = 0;

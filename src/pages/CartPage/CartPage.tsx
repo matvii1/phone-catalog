@@ -1,6 +1,6 @@
-import { GoBack } from 'src/components/GoBack';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
-import { Product } from 'src/types/Product';
+import { GoBack } from 'components/GoBack';
+import { useLocalStorage } from 'hooks/useLocalStorage';
+import { Product } from 'types/Product';
 import { CartCard } from './CartCard/CartCard';
 import { Checkout } from './Checkout/Checkout';
 import { EmptyCartPage } from './EmptyCartPage';

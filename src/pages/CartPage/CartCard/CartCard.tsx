@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { FC } from 'react';
-import { CloseIcon } from 'src/components/Icons/CloseIcon';
-import { Product } from 'src/types/Product';
+import { CloseIcon } from 'components/Icons/CloseIcon';
+import { Product } from 'types/Product';
 import './CartCard.scss';
 
 type Props = {

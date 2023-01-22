@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
+import { useLocalStorage } from 'hooks/useLocalStorage';
 import { NavHistory } from '../ProductsPage/NavHistory/NavHistory';
 import { FavouritesMain } from './FavouritesMain';
 import './FavouritesPage.scss';

@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { lower } from 'src/utils/shortHands';
+import { lower } from 'utils/shortHands';
 import { Category } from '../types/Category';
 
 type Props = {

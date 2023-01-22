@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ProdcutDetails } from 'src/types/ProductDetails';
+import { ProdcutDetails } from 'types/ProductDetails';
 
 type Props = {
   selectedProductDetails: ProdcutDetails | null,

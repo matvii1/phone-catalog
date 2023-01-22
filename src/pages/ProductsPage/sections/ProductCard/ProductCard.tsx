@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 import classNames from 'classnames';
-import { getRenderedRam } from 'src/utils/helpers/getRenderedRam';
-import { getRenderedCapacity } from 'src/utils/helpers/getRenderedCapacity';
-import { AddButton } from 'src/components/AddButtons';
+import { getRenderedRam } from 'utils/helpers/getRenderedRam';
+import { getRenderedCapacity } from 'utils/helpers/getRenderedCapacity';
+import { AddButton } from 'components/AddButtons';
 import './ProductCard.scss';
 
 type Props = {

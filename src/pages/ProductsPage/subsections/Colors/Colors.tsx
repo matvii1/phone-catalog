@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { FC } from 'react';
-import { ProdcutDetails } from 'src/types/ProductDetails';
+import { ProdcutDetails } from 'types/ProductDetails';
 import { Link } from 'react-router-dom';
-import { Product } from 'src/types/Product';
-import { getColor } from 'src/utils/helpers/getColor';
+import { Product } from 'types/Product';
+import { getColor } from 'utils/helpers/getColor';
 import './Colors.scss';
 
 type Props = {

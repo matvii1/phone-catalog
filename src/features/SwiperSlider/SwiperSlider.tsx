@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
+import { useLocalStorage } from 'hooks/useLocalStorage';
 import {
   ProductCard,
 } from '../../pages/ProductsPage/sections/ProductCard/ProductCard';

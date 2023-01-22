@@ -1,6 +1,6 @@
 import React from 'react';
-import { Product } from 'src/types/Product';
-import { ProdcutDetails } from 'src/types/ProductDetails';
+import { Product } from 'types/Product';
+import { ProdcutDetails } from 'types/ProductDetails';
 
 interface Context {
   products: Product[],

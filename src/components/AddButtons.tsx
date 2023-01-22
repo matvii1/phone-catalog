@@ -1,13 +1,8 @@
 import classNames from 'classnames';
 import { FC, useEffect } from 'react';
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 import { HeartActiveIcon } from './Icons/HeartActiveIcon';
 import { HeartIcon } from './Icons/HeartIcon';
-
-enum ButtonStates {
-  Added = 'Added to cart',
-  NotAdded = 'Add to cart',
-}
 
 type Props = {
   product: Product,
@@ -75,8 +70,8 @@ export const AddButton: FC<Props> = ({
         onClick={() => handleAddToCart(product)}
       >
         {cartProductsIds.includes(product.id)
-          ? ButtonStates.Added
-          : ButtonStates.NotAdded}
+          ? 'Added to cart'
+          : 'Add to cart'}
       </button>
 
       <button

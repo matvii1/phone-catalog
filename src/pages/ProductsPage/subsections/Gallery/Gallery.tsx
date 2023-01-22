@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { FC, useEffect, useState } from 'react';
-import { ProdcutDetails } from 'src/types/ProductDetails';
+import { ProdcutDetails } from 'types/ProductDetails';
 import './Gallery.scss';
 
 type Props = {

@@ -1,8 +1,8 @@
 import {
   Navigate, Route, Routes, useLocation,
 } from 'react-router-dom';
-import 'src/styles/App.scss';
-import { Footer } from 'src/globalSections/Footer/Footer';
+import 'styles/App.scss';
+import { Footer } from 'globalSections/Footer/Footer';
 import { useEffect, useRef, useState } from 'react';
 import { HomePage } from './pages/HomePage/HomePage';
 import { PhonesPage } from './pages/PhonesPage/PhonesPage';

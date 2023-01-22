@@ -1,4 +1,4 @@
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 
 export function getTotalPrice(arr: Product[]) {
   const arrOfPrices = [];

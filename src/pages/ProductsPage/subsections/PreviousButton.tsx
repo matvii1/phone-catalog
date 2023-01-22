@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { PrevArrowIcon } from 'src/components/Icons/PrevArrowIcon';
+import { PrevArrowIcon } from 'components/Icons/PrevArrowIcon';
 
 export const PreviousButton = () => {
   return (

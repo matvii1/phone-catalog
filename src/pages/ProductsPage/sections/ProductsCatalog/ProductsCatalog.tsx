@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import {
   ProductCard,
-} from 'src/pages/ProductsPage/sections/ProductCard/ProductCard';
-import { Product } from 'src/types/Product';
+} from 'pages/ProductsPage/sections/ProductCard/ProductCard';
+import { Product } from 'types/Product';
 import './ProductsCatalog.scss';
 
 type Props = {

@@ -1,20 +1,20 @@
 import { FC, useContext } from 'react';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { Product } from 'src/types/Product';
-import { GoBack } from 'src/components/GoBack';
-import { getMultupleRandom } from 'src/utils/helpers/getMultupleRandom';
-import { PhoneNotFound } from 'src/features/PhoneNotFound/PhoneNotFound';
-import { ShopButton } from '../../subsections/ShopButton';
-import { Capacity } from '../../subsections/Capacity/Capacity';
-import { Colors } from '../../subsections/Colors/Colors';
-import { Gallery } from '../../subsections/Gallery/Gallery';
-import { GeneralSpec } from '../../subsections/GeneralSpec';
-import { Paragraph } from '../../subsections/About/About';
-import { Prices } from '../../subsections/Prices';
-import { TechSpecs } from '../../subsections/TechSpecs';
-import { Title } from '../../subsections/Title';
+import { ProductContext } from 'contexts/ProductContext';
+import { Product } from 'types/Product';
+import { GoBack } from 'components/GoBack';
+import { getMultupleRandom } from 'utils/helpers/getMultupleRandom';
+import { PhoneNotFound } from 'features/PhoneNotFound/PhoneNotFound';
+import { SwiperSlider } from 'features/SwiperSlider/SwiperSlider';
+import { ShopButton } from 'pages/ProductsPage/subsections/ShopButton';
+import { Capacity } from 'pages/ProductsPage/subsections/Capacity/Capacity';
+import { Colors } from 'pages/ProductsPage/subsections/Colors/Colors';
+import { Gallery } from 'pages/ProductsPage/subsections/Gallery/Gallery';
+import { GeneralSpec } from 'pages/ProductsPage/subsections/GeneralSpec';
+import { Paragraph } from 'pages/ProductsPage/subsections/About/About';
+import { Prices } from 'pages/ProductsPage/subsections/Prices';
+import { TechSpecs } from 'pages/ProductsPage/subsections/TechSpecs';
+import { Title } from 'pages/ProductsPage/subsections/Title';
 import './DetailsContent.scss';
-import { SwiperSlider } from '../../../../features/SwiperSlider/SwiperSlider';
 
 type Props = {
   selectedProductGeneralInfo: Product,

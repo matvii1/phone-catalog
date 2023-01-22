@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { NextArrowIcon } from 'src/components/Icons/NextArrowIcon';
+import { NextArrowIcon } from 'components/Icons/NextArrowIcon';
 
 export const NextButton = () => {
   return (

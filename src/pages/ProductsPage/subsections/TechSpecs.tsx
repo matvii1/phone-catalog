@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { ProdcutDetails } from 'src/types/ProductDetails';
-import { getRenderedCapacity } from 'src/utils/helpers/getRenderedCapacity';
-import { getRenderedRam } from 'src/utils/helpers/getRenderedRam';
+import { ProdcutDetails } from 'types/ProductDetails';
+import { getRenderedCapacity } from 'utils/helpers/getRenderedCapacity';
+import { getRenderedRam } from 'utils/helpers/getRenderedRam';
 
 type Props = {
   selectedProductDetails: ProdcutDetails,

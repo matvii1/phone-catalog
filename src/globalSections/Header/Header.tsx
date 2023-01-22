@@ -3,14 +3,14 @@ import classNames from 'classnames';
 import {
   Link, NavLink, Route, Routes,
 } from 'react-router-dom';
-import { CartIcon } from 'src/components/Icons/CartIcon';
-import { HeartIcon } from 'src/components/Icons/HeartIcon';
-import { LogoIcon } from 'src/components/Icons/LogoIcon';
-import { InputSearch } from 'src/components/InputSearch';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
-import { HeaderList } from 'src/globalSections/Header/HeaderList';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { hasProducts } from 'src/utils/helpers/hasProducts';
+import { CartIcon } from 'components/Icons/CartIcon';
+import { HeartIcon } from 'components/Icons/HeartIcon';
+import { LogoIcon } from 'components/Icons/LogoIcon';
+import { InputSearch } from 'components/InputSearch';
+import { useLocalStorage } from 'hooks/useLocalStorage';
+import { HeaderList } from 'globalSections/Header/HeaderList';
+import { ProductContext } from 'contexts/ProductContext';
+import { hasProducts } from 'utils/helpers/hasProducts';
 import './Header.scss';
 
 type Props = {

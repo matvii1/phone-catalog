@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react';
-import { getHotPriceProducts } from 'src/api/getHotPriceProducts';
-import { Product } from 'src/types/Product';
-import { getNewModels } from 'src/api/getNewModels';
-import { ProductContext } from 'src/contexts/ProductContext';
+import { getHotPriceProducts } from 'api/getHotPriceProducts';
+import { Product } from 'types/Product';
+import { getNewModels } from 'api/getNewModels';
+import { ProductContext } from 'contexts/ProductContext';
 import { SliderComponent } from './sections/sliderComponent/SliderComponent';
 import { ShopByCategory } from './sections/ShopByCategory/ShopByCategory';
 import {

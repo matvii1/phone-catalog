@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { FC, useContext } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { HistoryStepIcon } from 'src/components/Icons/HistoryStepIcon';
-import { HomeIcon } from 'src/components/Icons/HomeIcon';
-import { ProductContext } from 'src/contexts/ProductContext';
+import { HistoryStepIcon } from 'components/Icons/HistoryStepIcon';
+import { HomeIcon } from 'components/Icons/HomeIcon';
+import { ProductContext } from 'contexts/ProductContext';
 import './NavHistory.scss';
 
 type Props = {

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Product } from 'src/types/Product';
+import { Product } from 'types/Product';
 
 type Props = {
   selectedProductGeneralInfo: Product,

@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { Product } from 'src/types/Product';
-import { ProdcutDetails } from 'src/types/ProductDetails';
-import { lower } from 'src/utils/shortHands';
+import { Product } from 'types/Product';
+import { ProdcutDetails } from 'types/ProductDetails';
+import { lower } from 'utils/shortHands';
 import './Capacity.scss';
 
 type Props = {

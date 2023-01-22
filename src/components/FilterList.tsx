@@ -1,10 +1,10 @@
 import classNames from 'classnames';
 import React, { FC } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Product } from 'src/types/Product';
-import { SortBy } from 'src/types/SortBy';
-import { lower } from 'src/utils/shortHands';
-import { getSearchWith } from 'src/utils/helpers/searchHelper';
+import { Product } from 'types/Product';
+import { SortBy } from 'types/SortBy';
+import { lower } from 'utils/shortHands';
+import { getSearchWith } from 'utils/helpers/searchHelper';
 
 type Props = {
   dropDownContent: string[],

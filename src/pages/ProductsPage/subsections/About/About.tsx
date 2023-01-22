@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { ProdcutDetails } from 'src/types/ProductDetails';
-import { generateKey } from 'src/utils/helpers/generateKey';
+import { ProdcutDetails } from 'types/ProductDetails';
+import { generateKey } from 'utils/helpers/generateKey';
 import './About.scss';
 
 type Props = {

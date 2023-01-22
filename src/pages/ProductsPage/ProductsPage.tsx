@@ -2,16 +2,16 @@ import {
   FC, useContext, useEffect, useMemo,
 } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { GoBack } from 'src/components/GoBack';
-import { ProductContext } from 'src/contexts/ProductContext';
+import { GoBack } from 'components/GoBack';
+import { ProductContext } from 'contexts/ProductContext';
 import {
   NoItemsLeftSection,
-} from 'src/features/NoItemsLeft/NoItemsLeftSection';
+} from 'features/NoItemsLeft/NoItemsLeftSection';
 import {
   ProductSection,
-} from 'src/pages/ProductsPage/sections/ProductSection/ProductSection';
-import { NavHistory } from 'src/pages/ProductsPage/NavHistory/NavHistory';
-import { sortProducts } from 'src/utils/helpers/sortProducts';
+} from 'pages/ProductsPage/sections/ProductSection/ProductSection';
+import { NavHistory } from 'pages/ProductsPage/NavHistory/NavHistory';
+import { sortProducts } from 'utils/helpers/sortProducts';
 
 type Props = {
   title: string,

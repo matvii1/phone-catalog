@@ -3,10 +3,10 @@ import {
 } from 'react';
 import ReactPaginate from 'react-paginate';
 import { useSearchParams } from 'react-router-dom';
-import { ProductContext } from 'src/contexts/ProductContext';
-import { useLocalStorage } from 'src/hooks/useLocalStorage';
-import { Product } from 'src/types/Product';
-import { getSearchWith } from 'src/utils/helpers/searchHelper';
+import { ProductContext } from 'contexts/ProductContext';
+import { useLocalStorage } from 'hooks/useLocalStorage';
+import { Product } from 'types/Product';
+import { getSearchWith } from 'utils/helpers/searchHelper';
 import { NextButton } from '../../subsections/NextButton';
 import { PreviousButton } from '../../subsections/PreviousButton';
 import { ProductsCatalog } from '../ProductsCatalog/ProductsCatalog';

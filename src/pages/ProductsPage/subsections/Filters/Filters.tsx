@@ -3,11 +3,11 @@ import {
   FC, useEffect, useRef, useState,
 } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { HistoryStepIcon } from 'src/components/Icons/HistoryStepIcon';
-import { Product } from 'src/types/Product';
-import { SortBy } from 'src/types/SortBy';
-import { capitalize } from 'src/utils/shortHands';
-import { FilterList } from '../../../../components/FilterList';
+import { HistoryStepIcon } from 'components/Icons/HistoryStepIcon';
+import { Product } from 'types/Product';
+import { SortBy } from 'types/SortBy';
+import { capitalize } from 'utils/shortHands';
+import { FilterList } from 'components/FilterList';
 import './Filters.scss';
 
 const fromNameToProps: SortBy = {

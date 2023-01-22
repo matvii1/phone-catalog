@@ -1,7 +1,7 @@
 import { FC, useMemo, useState } from 'react';
-import { Product } from 'src/types/Product';
-import { getTotalPrice } from 'src/utils/helpers/getTotalPrice';
-import { getTotalProducts } from 'src/utils/helpers/getTotalProducts';
+import { Product } from 'types/Product';
+import { getTotalPrice } from 'utils/helpers/getTotalPrice';
+import { getTotalProducts } from 'utils/helpers/getTotalProducts';
 import './Checkout.scss';
 
 type Props = {

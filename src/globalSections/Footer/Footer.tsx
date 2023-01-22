@@ -1,5 +1,5 @@
-import { LogoIcon } from 'src/components/Icons/LogoIcon';
-import { PrevArrowIcon } from 'src/components/Icons/PrevArrowIcon';
+import { LogoIcon } from 'components/Icons/LogoIcon';
+import { PrevArrowIcon } from 'components/Icons/PrevArrowIcon';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.scss';
