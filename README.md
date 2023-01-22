@@ -12,6 +12,7 @@
  - SwiperJs
  - react-paginate
  - LocalStorage
+ - Cusom hooks
  - Debounce + Throttle
  
 
